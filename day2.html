@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    
+</head>
+<body>
+    <style>
+        body{
+            background-color: bisque;
+           
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: 60px;
+  background-color: #dddddd;
+}
+        </style>
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+<h1>Form 1</h1>
+    <form action="process_form.php" method="POST">
+       
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+       
+        <label>Preferred language:</label><Br>
+        <input type="radio" id="english" name="language" value="English">
+        <label for="english">English</label><br>
+
+        <input type="radio" id="hindi" name="language" value="Hindi">
+        <label for="hindi">Hindi</label><br>
+
+       
+       <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests[]" value="Coding">
+        <label for="coding">Coding</label><br>
+
+        <input type="checkbox" id="design" name="interests[]" value="Design">
+        <label for="design">Design</label><br>
+       <label>Select the country</label>
+    <form action="#" method="post">
+        <label for="country"></label>
+        <select name="country " id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <br>
+<br>
+
+        <label for=" fd " id="fd">Select the food you like the most</label>
+          <select name="food" id="food">
+            <option value="Paneer Lababdar">Paneer Lababdar</option>
+            <option value="Chole Bhature">Chole Bhature</option>
+            <option value="Chicken Butter Masala">Chicken Butter Masala</option>
+            <option value="Mashroom Paneer Mix">Mashroom Paneer Mix</option>
+            <option value="Butter Chicken">Butter Chicken</option>
+            <option value="Paneer Tikka">Paneer Tikka</option>
+          </select><br>
+          <br>
+        
+          <label for="sports " id="sp">Select the sport you like</label>
+          <select name="Sport" id="sports">
+            <option value="Cricket">Cricket</option>
+            <option value="Football">Footbal</option>
+            <option value="volleyball">Volleyball</option>
+            <option value="Basketball">Basketball</option>
+            <option value="kabaddi">Kabaddi</option>
+          </select>
+          <br>
+          <BR>
+            <label>Comments</label><br>
+            <textarea></textarea><BR>
+            <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+</body>
+</html>
+

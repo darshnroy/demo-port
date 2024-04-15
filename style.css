@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin-top: 10px;
+  color: chocolate;
+  background-color: black;
+}
+
+p {
+
+  word-spacing: 10px;
+  font-size: 20px;
+  color: rgb(35, 112, 115);
+  line-height: 40px;
+  text-shadow: 40px;
+  letter-spacing: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  text-indent: 50px;
+  font-size: 20px;
+
+}
+
+.para {
+  font-size: 50px;
+
+}
+
+.flex-container {
+  flex-wrap: wrap;
+  position: sticky;
+  gap: 5px;
+  border: 1px solid transparent;
+  padding: 50px;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: space-between;
+  background-color:transparent;
+
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  background-color: #326282;
+
+}
+ 
